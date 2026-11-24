@@ -1,0 +1,31 @@
+TOKOTECH - SITE COM GOOGLE ANALYTICS 4
+
+Este pacote já contém a integração do Google Analytics 4.
+ID de medição: G-QF309WYLVW
+Endereço do site: https://tokotech-of.github.io/Tokotech/
+
+ARQUIVOS
+- index.html: página do site com Google Analytics e eventos personalizados.
+- assets/: imagens da bancada e logo da TokoTech.
+- .nojekyll: arquivo auxiliar para publicação no GitHub Pages.
+
+COMO ATUALIZAR NO GITHUB
+1. Extraia este ZIP no computador.
+2. Abra o repositório tokotech-of/Tokotech no GitHub.
+3. Clique em Add file > Upload files.
+4. Envie o index.html e a pasta assets completa (incluindo logo-tokotech.png, bancada-inicio.jpg e bancada-sobre.jpg).
+5. Se solicitado, confirme a substituição dos arquivos existentes.
+6. Clique em Commit changes para gravar na branch main.
+7. Aguarde alguns minutos e abra https://tokotech-of.github.io/Tokotech/; use Ctrl+F5 para atualizar o cache.
+
+EVENTOS CONFIGURADOS
+- click_whatsapp: cliques em links wa.me.
+- click_service_request: cliques nos botões de solicitação de reparo, com o tipo de equipamento.
+- click_route: cliques em links de rota do Google Maps.
+- click_instagram: cliques em links do Instagram.
+- click_google_reviews: cliques em links para avaliações/perfil no Google Maps.
+
+A visualização de páginas é enviada automaticamente pelo Google Analytics.
+
+IMPORTANTE
+Depois de publicar, abra o Google Analytics > Relatórios > Tempo real e faça um acesso de teste ao site. Os eventos personalizados podem levar algum tempo para aparecer nos relatórios. Informe os visitantes, na política de privacidade do site, sobre o uso do Google Analytics e tecnologias de medição.
